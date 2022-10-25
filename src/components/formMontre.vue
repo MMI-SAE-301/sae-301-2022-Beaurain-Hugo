@@ -14,7 +14,7 @@
 
 <template>
     <div>
-        <montreCarree  />
-        <montreRonde />
+        <montreCarree v-bind="montre" />
+        <montreRonde v-bind="montre" />
     </div>
 </template>
