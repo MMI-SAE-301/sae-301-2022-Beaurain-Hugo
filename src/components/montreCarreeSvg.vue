@@ -1,3 +1,12 @@
+<script setup lang="ts">
+  import type { Basket } from '@/types'
+  withDefaults(defineProps<Basket>(),{
+    bracelet:'white',
+    boitier:'white',
+    ecran:'white'
+  });
+</script>
+
 <template>
 
 <?xml version="1.0" encoding="UTF-8"?>
