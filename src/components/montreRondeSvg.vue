@@ -1,3 +1,11 @@
+<script setup lang="ts">
+  import type { Montre } from '@/types'
+  withDefaults(defineProps<Montre>(),{
+    bracelet:'white',
+    boitier:'white',
+    ecran:'white'
+  });
+</script>
 <template>
 <?xml version="1.0" encoding="UTF-8"?>
 
