@@ -1,6 +1,6 @@
 <script setup lang="ts">
-  import type { Basket } from '@/types'
-  withDefaults(defineProps<Basket>(),{
+  import type { Montre } from '@/types'
+  withDefaults(defineProps<Montre>(),{
     bracelet:'white',
     boitier:'white',
     ecran:'white'
