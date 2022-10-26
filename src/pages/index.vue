@@ -4,14 +4,17 @@
 
 <template>
   <section>
+    <img class="" src="../../public/illustration_accueil.png" alt="">
     <h1 class="text-2xl">
-      Bonjour<code class="font-mono text-base">/src/pages/index.vue</code>
+      Bonjour
     </h1>
   </section>
-  <section>
-  <h2>
-    Exemple de montres
+  <section class="bg-sky-300 py-5">
+  <h2 class="ml-3 md:ml-12 text-xl font-bold">
+    Besoin d'inspiration ?
   </h2>
-  <exempleMontre class="flex flex-wrap gap-2" :max="3" />
+  <div class="mt-5">
+  <exempleMontre class="flex flex-wrap justify-around gap-5" :max="3" />
+  </div>
 </section>
 </template>
