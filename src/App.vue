@@ -2,12 +2,12 @@
     <header>
     <nav>
       <div class="flex justify-between border-b-2 border-blue-200">
-      <router-link to="/" class="sm:hidden font-cinzel text-lg">Tik Tak</router-link>
-      <ul class="text-center font-lexend sm:flex hidden gap-14 ml-20">
+      <router-link to="/" class="sm:hidden font-cinzel text-lg ml-3 mt-2">Tik Tak</router-link>
+      <ul class="text-center font-lexend text-base sm:flex hidden gap-14 ml-20">
         <li class="ml-5">
           <router-link to="/" class="font-cinzel text-lg">Tik Tak</router-link>
         </li>
-          <li class="mt-0.5">
+          <li class="mt-0.5 text-base">
             <router-link to="/montres">
               Vos montres
             </router-link>
@@ -22,7 +22,7 @@
         <ul>
           <li class="mt-0.5">
             <router-link class="sm:flex hidden mr-5" to="/connexion">
-              <UsersIcon class="w-5 h-5"/>Se connecter
+              <UsersIcon class="w-5 h-5 mt-1"/>Se connecter
             </router-link>
           </li>
         </ul>       
@@ -90,6 +90,27 @@
   <Suspense>
     <router-view class="m-2 border-2 p-2" />
   </Suspense>
+
+  <footer class="bg-blue-100">
+    <nav>
+      <div class="sm:flex hidden justify-around py-4">
+      <ul>
+        <li><a class="font-lexend font-bold text-5xl" href="#">Nous suivre</a></li>
+        <li><a class="font-source-code-pro text-2xl" href="#">Instagram</a></li>
+        <li><a class="font-source-code-pro text-2xl" href="#">Facebook</a></li>
+        <li><a class="font-source-code-pro text-2xl" href="#">Twitter</a></li>
+      </ul>
+      <ul>
+        <li><router-link class="font-lexend font-bold text-5xl" to="/connexion">Se connecter</router-link></li>
+        <li><a class="font-source-code-pro text-2xl" href="#">Google</a></li>
+        <li><a class="font-source-code-pro text-2xl" href="#">Facebook</a></li>
+      </ul>
+    </div>
+    <div>
+      
+    </div>
+    </nav>
+  </footer>
 </template>
 
 <script setup lang="ts">
