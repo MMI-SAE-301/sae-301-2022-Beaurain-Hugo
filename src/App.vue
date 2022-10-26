@@ -4,37 +4,49 @@
       <div class="flex justify-between">
       <router-link to="/" class="font-cinzel text-lg">Tik Tak</router-link>        
       <button class="relative sm:hidden"
+        @click="menuOuvert = !menuOuvert"
         >
         <Bars3Icon class="h-10 w-10" />
         <span class="sr-only">Menu</span>
       </button>
     </div>
-      <ul>
-        <li>
-          <router-link class="text-red-600 underline" to="/">
-            lien vers
-            <code class="font-mono">/src/pages/index.vue</code>
-          </router-link>
-        </li>
-        <li>
-          <router-link class="text-red-600 underline" to="/montres">
-            lien vers
-            <code class="font-mono">/src/pages/montres/index.vue</code>
-          </router-link>
-        </li>
-        <li>
-          <router-link class="text-red-600 underline" to="/montres/new">
-            lien vers
-            <code class="font-mono">/src/pages/montres/new.vue</code>
-          </router-link>
-        </li>
-        <li>
-          <router-link class="text-red-600 underline" to="/connexion">
-            lien vers
-            <code class="font-mono">/src/pages/connexion.vue</code>
-          </router-link>
-        </li>
-      </ul>
+    <div class="
+        fixed
+        inset-0
+        flex
+        translate-x-full
+        flex-col
+        justify-center
+        bg-blue-300
+        motion-safe:transition-transform motion-safe:duration-1000
+      "
+      :class="{ 'translate-x-0': menuOuvert }">
+      <div class="flex justify-center">
+        <ul class="text-center font-lexend">
+          <li>
+            <router-link class="" to="/">
+              Accueil
+            </router-link>
+          </li>
+          <li>
+            <router-link class="" to="/montres">
+              Vos montres
+            </router-link>
+          </li>
+          <li>
+            <router-link class="" to="/montres/new">
+              Personnaliser
+            </router-link>
+          </li>
+          <li>
+            <router-link class="flex" to="/connexion">
+              <UsersIcon class="w-5 h-5"/>Se connecter
+            </router-link>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
     </nav>
   </header>
 
@@ -45,5 +57,9 @@
 </template>
 
 <script setup lang="ts">
-import { Bars3Icon } from "@heroicons/vue/20/solid";
+import { Bars3Icon, UsersIcon } from "@heroicons/vue/20/solid";
+import { ref } from 'vue'
+const menuOuvert = ref(false)
 </script>
+
+
