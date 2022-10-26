@@ -1,6 +1,7 @@
 <script setup lang="ts">
     import montreCarree from '@/components/montreCarreeSvg.vue'
     import montreRonde from '@/components/montreRondeSvg.vue'
+    import listColors from '@/components/listColors.vue'
     import type { Montre } from '@/types'
     import { ref } from 'vue'
 
@@ -16,4 +17,9 @@
     <div>
         <montreCarree v-bind="montre" id="carre" />
     </div>
+    <FormKit type="form" v-model="montre">
+        <listColors name="bracelet" label="Bracelet" />
+        <listColors name="boitier" label="Boîtier" />
+        <listColors name="ecran" label="Ecran" />
+    </FormKit>
 </template>
