@@ -3,7 +3,8 @@
     <nav>
       <div class="flex justify-between">
       <router-link to="/" class="font-cinzel text-lg">Tik Tak</router-link>        
-      <button>
+      <button class="relative sm:hidden"
+        >
         <Bars3Icon class="h-10 w-10" />
         <span class="sr-only">Menu</span>
       </button>
