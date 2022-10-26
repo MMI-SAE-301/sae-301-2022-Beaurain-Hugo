@@ -15,7 +15,8 @@
 
 <template>
     <div>
-        <montreCarree v-bind="montre" id="carre" />
+        <montreCarree class="w-64" v-bind="montre"/>
+        <!--<montreRonde v-bind="montre" />-->
     </div>
     <FormKit type="form" v-model="montre">
         <listColors name="bracelet" label="Bracelet" />

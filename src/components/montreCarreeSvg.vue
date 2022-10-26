@@ -8,10 +8,9 @@
 </script>
 
 <template>
-
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 476.37 711">
   <defs>
-    
+
     <symbol id="Chargement_4" data-name="Chargement 4" viewBox="0 0 35.92 35.92">
       <g>
         <path class="cls-29" d="M16.83,0c-4.12,.26-7.87,1.9-10.78,4.47l7.46,7.46c.96-.71,2.09-1.19,3.32-1.37V0Z"/>
@@ -115,195 +114,195 @@
       </g>
     </symbol>
   </defs>
-  <g id="bracelet">
-    <path class="cls-21" d="M550.41,73.36s52.17-20.29,98.55-18.84,95.65,15.94,95.65,15.94c0,0-28.99,271.01-26.09,349.28s27.54,307.25,27.54,307.25c0,0-47.83,21.74-92.75,18.84s-97.1-17.39-97.1-17.39c0,0,23.88-239.13,23.88-333.33s-29.68-321.74-29.68-321.74Z"/>
-    <path class="cls-21" d="M509.83,199.45s39.13-72.46,34.78-126.09c0,0,17.39-27.54,102.9-27.54s110.14,18.84,110.14,18.84c0,0,14.8,110.14,35.09,130.43,0,0-95.96,18.84-148.13,18.84s-134.78-14.49-134.78-14.49Z"/>
-    <path class="cls-21" d="M795.14,607.79s-41.86,70.92-39.56,124.67c0,0-18.43,26.85-103.87,23.59-85.45-3.26-109.35-23.02-109.35-23.02,0,0-10.59-110.63-30.09-131.68,0,0,96.6-15.17,148.74-13.18,52.14,1.99,134.13,19.62,134.13,19.62Z"/>
+  <g id="bracelet" :fill="bracelet">
+    <path  class="cls-21" d="M134.85,27.79S187.03,7.5,233.41,8.95s95.65,15.94,95.65,15.94c0,0-28.99,271.01-26.09,349.28s27.54,307.25,27.54,307.25c0,0-47.83,21.74-92.75,18.84s-97.1-17.39-97.1-17.39c0,0,23.88-239.13,23.88-333.33S134.85,27.79,134.85,27.79Z"/>
+    <path :fill="bracelet" class="cls-21" d="M94.27,153.87s39.13-72.46,34.78-126.09c0,0,17.39-27.54,102.9-27.54s110.14,18.84,110.14,18.84c0,0,14.8,110.14,35.09,130.43,0,0-95.96,18.84-148.13,18.84s-134.78-14.49-134.78-14.49Z"/>
+    <path :fill="bracelet" class="cls-21" d="M379.58,562.21s-41.86,70.92-39.56,124.67c0,0-18.43,26.85-103.87,23.59-85.45-3.26-109.35-23.02-109.35-23.02,0,0-10.59-110.63-30.09-131.68,0,0,96.6-15.17,148.74-13.18,52.14,1.99,134.13,19.62,134.13,19.62Z"/>
   </g>
-  <g id="boitier">
-    <rect class="cls-21" x="459.42" y="176.21" width="379.91" height="453.62" rx="80.8" ry="80.8"/>
-    <rect class="cls-21" x="478.69" y="201.63" width="341.37" height="402.78" rx="72.17" ry="72.17"/>
-    <rect class="cls-22" x="497.6" y="218.1" width="303.55" height="369.83" rx="65.21" ry="65.21"/>
+  <g id="boitier" >
+    <rect :fill="boitier" class="cls-21" x="43.87" y="130.63" width="379.91" height="453.62" rx="80.8" ry="80.8"/>
+    <rect :fill="boitier" class="cls-21" x="63.14" y="156.05" width="341.37" height="402.78" rx="72.17" ry="72.17"/>
+    <rect :fill="ecran" class="cls-22" x="82.05" y="172.53" width="303.55" height="369.83" rx="65.21" ry="65.21"/>
   </g>
-  <g id="ecran">
-    <text class="cls-3" transform="translate(519.13 375.35)"><tspan x="0" y="0">1O:1O</tspan></text>
-    <text class="cls-2" transform="translate(568.44 267.61)"><tspan x="0" y="0" xml:space="preserve">Lun.  24 oct.</tspan></text>
-    <text class="cls-2" transform="translate(594.51 557.03)"><tspan x="0" y="0">TiK•TaK</tspan></text>
-    <use width="35.92" height="35.92" transform="translate(708.25 442.43) scale(1.22)" xlink:href="#Chargement_4"/>
-    <use width="66.17" height="72" transform="translate(547.82 441.36) scale(.64)" xlink:href="#Orb_-_Gris"/>
-    <use width="48" height="48" transform="translate(628.19 440.44)" xlink:href="#Puce_6_-_Gris"/>
+  <g id="ecran" class="ecran">
+    <text class="cls-3" transform="translate(103.58 329.78)"><tspan x="0" y="0">1O:1O</tspan></text>
+    <text class="cls-2" transform="translate(152.89 222.03)"><tspan x="0" y="0" xml:space="preserve">Lun.  24 oct.</tspan></text>
+    <text class="cls-2" transform="translate(178.96 511.45)"><tspan x="0" y="0">TiK•TaK</tspan></text>
+    <use width="35.92" height="35.92" transform="translate(292.7 396.86) scale(1.22)" xlink:href="#Chargement_4"/>
+    <use width="66.17" height="72" transform="translate(132.27 395.79) scale(.64)" xlink:href="#Orb_-_Gris"/>
+    <use width="48" height="48" transform="translate(212.64 394.86)" xlink:href="#Puce_6_-_Gris"/>
   </g>
 </svg>
 </template>
 
-<style>
-      .cls-1 {
-        fill: url(#radial-gradient-10);
-      }
+<style scoped>
+.cls-1 {
+  fill: url(#radial-gradient-10);
+}
 
-      .cls-2 {
-        font-size: 30px;
-        letter-spacing: -.01em;
-      }
+.cls-2 {
+  font-size: 30px;
+  letter-spacing: -.01em;
+}
 
-      .cls-2, .cls-3 {
-        font-family: ArialMT, Arial;
-      }
+.cls-2, .cls-3 {
+  font-family: ArialMT, Arial;
+}
 
-      .cls-4 {
-        fill: #404041;
-      }
+.cls-4 {
+  fill: #404041;
+}
 
-      .cls-5 {
-        fill: #8c98a0;
-      }
+.cls-5 {
+  fill: #8c98a0;
+}
 
-      .cls-6 {
-        fill: url(#linear-gradient-2);
-        opacity: .4;
-      }
+.cls-6 {
+  fill: url(#linear-gradient-2);
+  opacity: .4;
+}
 
-      .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
-        mix-blend-mode: screen;
-      }
+.cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20 {
+  mix-blend-mode: screen;
+}
 
-      .cls-7 {
-        fill: url(#linear-gradient-4);
-      }
+.cls-7 {
+  fill: url(#linear-gradient-4);
+}
 
-      .cls-21 {
-        fill: #fff;
-      }
+.cls-21 {
+  fill: "bracelet";
+}
 
-      .cls-21, .cls-22 {
-        stroke: #000;
-        stroke-miterlimit: 10;
-        stroke-width: .5px;
-      }
+.cls-21, .cls-22 {
+  stroke: #000;
+  stroke-miterlimit: 10;
+  stroke-width: .5px;
+}
 
-      .cls-8 {
-        fill: url(#linear-gradient);
-      }
+.cls-8 {
+  fill: url(#linear-gradient);
+}
 
-      .cls-9 {
-        fill: url(#radial-gradient-7);
-      }
+.cls-9 {
+  fill: url(#radial-gradient-7);
+}
 
-      .cls-23 {
-        fill: #929497;
-      }
+.cls-23 {
+  fill: #929497;
+}
 
-      .cls-10 {
-        fill: url(#radial-gradient-5);
-      }
+.cls-10 {
+  fill: url(#radial-gradient-5);
+}
 
-      .cls-10, .cls-13, .cls-24, .cls-16, .cls-18 {
-        opacity: .8;
-      }
+.cls-10, .cls-13, .cls-24, .cls-16, .cls-18 {
+  opacity: .8;
+}
 
-      .cls-25 {
-        fill: #a6a8ab;
-      }
+.cls-25 {
+  fill: #a6a8ab;
+}
 
-      .cls-11 {
-        fill: url(#radial-gradient-8);
-      }
+.cls-11 {
+  fill: url(#radial-gradient-8);
+}
 
-      .cls-12 {
-        fill: url(#linear-gradient-6);
-      }
+.cls-12 {
+  fill: url(#linear-gradient-6);
+}
 
-      .cls-26 {
-        fill: url(#linear-gradient-11);
-      }
+.cls-26 {
+  fill: url(#linear-gradient-11);
+}
 
-      .cls-27 {
-        fill: url(#radial-gradient);
-      }
+.cls-27 {
+  fill: url(#radial-gradient);
+}
 
-      .cls-27, .cls-24 {
-        mix-blend-mode: multiply;
-      }
+.cls-27, .cls-24 {
+  mix-blend-mode: multiply;
+}
 
-      .cls-13 {
-        fill: url(#radial-gradient-6);
-      }
+.cls-13 {
+  fill: url(#radial-gradient-6);
+}
 
-      .cls-14 {
-        fill: url(#linear-gradient-5);
-      }
+.cls-14 {
+  fill: url(#linear-gradient-5);
+}
 
-      .cls-28 {
-        fill: url(#linear-gradient-10);
-      }
+.cls-28 {
+  fill: url(#linear-gradient-10);
+}
 
-      .cls-22 {
-        fill: #b3b3b3;
-      }
+.cls-22 {
+  fill: "boitier";
+}
 
-      .cls-15 {
-        fill: url(#linear-gradient-7);
-      }
+.cls-15 {
+  fill: url(#linear-gradient-7);
+}
 
-      .cls-15, .cls-19 {
-        opacity: .7;
-      }
+.cls-15, .cls-19 {
+  opacity: .7;
+}
 
-      .cls-3 {
-        font-size: 98px;
-        letter-spacing: -.11em;
-      }
+.cls-3 {
+  font-size: 98px;
+  letter-spacing: -.11em;
+}
 
-      .cls-16 {
-        fill: url(#radial-gradient-9);
-      }
+.cls-16 {
+  fill: url(#radial-gradient-9);
+}
 
-      .cls-29 {
-        fill: #bbbdbf;
-      }
+.cls-29 {
+  fill: #bbbdbf;
+}
 
-      .cls-30 {
-        fill: #b2b4b7;
-      }
+.cls-30 {
+  fill: #b2b4b7;
+}
 
-      .cls-31 {
-        fill: #808284;
-      }
+.cls-31 {
+  fill: #808284;
+}
 
-      .cls-32 {
-        fill: url(#radial-gradient-2);
-      }
+.cls-32 {
+  fill: url(#radial-gradient-2);
+}
 
-      .cls-18 {
-        fill: url(#radial-gradient-4);
-      }
+.cls-18 {
+  fill: url(#radial-gradient-4);
+}
 
-      .cls-33 {
-        fill: url(#linear-gradient-9);
-      }
+.cls-33 {
+  fill: url(#linear-gradient-9);
+}
 
-      .cls-19 {
-        fill: url(#linear-gradient-3);
-      }
+.cls-19 {
+  fill: url(#linear-gradient-3);
+}
 
-      .cls-34 {
-        fill: #6d6e70;
-      }
+.cls-34 {
+  fill: #6d6e70;
+}
 
-      .cls-35 {
-        fill: #231f20;
-      }
+.cls-35 {
+  fill: #231f20;
+}
 
-      .cls-20 {
-        fill: url(#radial-gradient-3);
-        opacity: .6;
-      }
+.cls-20 {
+  fill: url(#radial-gradient-3);
+  opacity: .6;
+}
 
-      .cls-36 {
-        fill: url(#linear-gradient-8);
-      }
+.cls-36 {
+  fill: url(#linear-gradient-8);
+}
 
-      .cls-37 {
-        fill: #58595b;
-      }
-    </style>
+.cls-37 {
+  fill: #58595b;
+}
+</style>
