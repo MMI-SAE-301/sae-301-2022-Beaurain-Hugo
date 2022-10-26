@@ -3,10 +3,7 @@
 </script>
 
 <template>
-    <button v-if="user" @pointerdown="supabase.auth.signOut()">
-        Se déconnecter ({{user.email}})
-    </button>
-    <button v-else @pointerdown="supabase.auth.signIn({provider: 'google'})">
+    <button @pointerdown="supabase.auth.signIn({provider: 'google'})">
         Se connecter avec Google
     </button>
 </template>
