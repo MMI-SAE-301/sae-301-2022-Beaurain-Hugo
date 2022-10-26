@@ -4,7 +4,9 @@
     import listColors from '@/components/listColors.vue'
     import type { Montre } from '@/types'
     import { ref } from 'vue'
+    import { useRouter } from 'vue-router'
 
+    const router = useRouter();
     const props = defineProps<{
         data?: Montre;
         id?: string;
@@ -15,8 +17,18 @@
         if (error) node.setErrors([error.message])
         else {
         node.setErrors([]);
+        router.push({ name: "montres-edit-id", params: { id: data[0].id } });
         }
     }
+    if (props.id) {
+        // On charge les données de la maison
+        let { data, error } = await supabase
+        .from("montre")
+        .select("*")
+        .eq("id", props.id);
+        if (error) console.log("n'a pas pu charger le table montre :", error);
+        else montre.value = (data as any[])[0];
+    }       
 </script>
 
 <template>
