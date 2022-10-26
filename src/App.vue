@@ -1,16 +1,44 @@
 <template>
     <header>
     <nav>
-      <div class="flex justify-between">
-      <router-link to="/" class="font-cinzel text-lg">Tik Tak</router-link>        
+      <div class="flex justify-between border-b-2 border-blue-200">
+      <router-link to="/" class="sm:hidden font-cinzel text-lg">Tik Tak</router-link>
+      <ul class="text-center font-lexend sm:flex hidden gap-14 ml-20">
+        <li class="ml-5">
+          <router-link to="/" class="font-cinzel text-lg">Tik Tak</router-link>
+        </li>
+          <li class="mt-0.5">
+            <router-link to="/montres">
+              Vos montres
+            </router-link>
+          </li>
+          <li class="mt-0.5">
+            <router-link class="" to="/montres/new">
+              Personnaliser
+            </router-link>
+          </li>
+          
+        </ul>
+        <ul>
+          <li class="mt-0.5">
+            <router-link class="sm:flex hidden mr-5" to="/connexion">
+              <UsersIcon class="w-5 h-5"/>Se connecter
+            </router-link>
+          </li>
+        </ul>       
       <button class="relative sm:hidden"
+        aria-haspopup="true"
+        aria-controls="menu"
+        :aria-expanded="menuOuvert"
         @click="menuOuvert = !menuOuvert"
         >
         <Bars3Icon class="h-10 w-10" />
         <span class="sr-only">Menu</span>
       </button>
     </div>
-    <div class="
+    <div 
+    id="menu"
+    class="
         fixed
         inset-0
         flex
@@ -21,28 +49,32 @@
         motion-safe:transition-transform motion-safe:duration-1000
       "
       :class="{ 'translate-x-0': menuOuvert }">
-      <button class="absolute top-3 right-3 " @click="menuOuvert = !menuOuvert">
+      <button class="absolute top-3 right-3 " 
+        aria-haspopup="true"
+        aria-controls="menu"
+        :aria-expanded="menuOuvert"
+        @click="menuOuvert = !menuOuvert">
         <XMarkIcon class="h-10 w-10"/>
         <span class="sr-only">Fermer menu</span> 
       </button>
       <div class="flex justify-center">
         <ul class="text-center font-lexend">
-          <li>
+          <li @click="menuOuvert = !menuOuvert">
             <router-link class="" to="/">
               Accueil
             </router-link>
           </li>
-          <li>
+          <li @click="menuOuvert = !menuOuvert">
             <router-link class="" to="/montres">
               Vos montres
             </router-link>
           </li>
-          <li>
+          <li @click="menuOuvert = !menuOuvert">
             <router-link class="" to="/montres/new">
               Personnaliser
             </router-link>
-          </li>
-          <li>
+          </li >
+          <li @click="menuOuvert = !menuOuvert">
             <router-link class="flex" to="/connexion">
               <UsersIcon class="w-5 h-5"/>Se connecter
             </router-link>
