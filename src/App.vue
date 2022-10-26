@@ -106,8 +106,18 @@
         <li><a class="font-source-code-pro text-2xl" href="#">Facebook</a></li>
       </ul>
     </div>
-    <div>
-      
+    <div class="sm:hidden text-center py-10">
+      <ul>
+        <li><a class="font-lexend font-bold text-3xl" href="#">Nous suivre</a></li>
+        <li><a class="font-source-code-pro text-xl" href="#">Instagram</a></li>
+        <li><a class="font-source-code-pro text-xl" href="#">Facebook</a></li>
+        <li><a class="font-source-code-pro text-xl" href="#">Twitter</a></li>
+      </ul>
+      <ul>
+        <li><router-link class="font-lexend font-bold text-3xl" to="/connexion">Se connecter</router-link></li>
+        <li><a class="font-source-code-pro text-xl" href="#">Google</a></li>
+        <li><a class="font-source-code-pro text-xl" href="#">Facebook</a></li>
+      </ul> 
     </div>
     </nav>
   </footer>
