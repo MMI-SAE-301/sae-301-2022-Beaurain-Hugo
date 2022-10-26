@@ -6,7 +6,7 @@ import {user } from '@/supabase'
 <template>
     <div v-if="user">
         <h1>Vos montres enregistrées</h1>
-        <listMontre />
+        <listMontre class="flex flex-wrap gap-2" />
     </div>
     <div v-else>
         <h1>Connectez-vous pour voir vos montres !</h1>
