@@ -10,7 +10,13 @@
         id?: string;
     }>();
     const montre = ref<Montre>(props.data ?? {});
-
+    async function upsertBasket(dataForm, node) {
+        const { data, error } = await supabase.from("montre").upsert(dataForm);
+        if (error) node.setErrors([error.message])
+        else {
+        node.setErrors([]);
+        }
+    }
 </script>
 
 <template>
@@ -18,7 +24,7 @@
         <montreCarree class="w-64" v-bind="montre"/>
         <!--<montreRonde v-bind="montre" />-->
     </div>
-    <FormKit type="form" v-model="montre">
+    <FormKit type="form" v-model="montre" @submit="upsertBasket">
         <listColors name="bracelet" label="Bracelet" />
         <listColors name="boitier" label="Boîtier" />
         <listColors name="ecran" label="Ecran" />
