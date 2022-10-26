@@ -30,6 +30,9 @@ module.exports = {
         "3xl": "2.1875rem",
         "4xl": "3rem",
         "full": "9999px"
+      },
+      "screens": {
+        'xs': '450px'
       }
     },
   },
