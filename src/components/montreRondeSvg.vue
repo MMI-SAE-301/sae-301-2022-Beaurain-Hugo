@@ -141,7 +141,7 @@
   </g>
 </svg>
 </template>
-<style>
+<style scoped>
       .cls-1 {
         fill: url(#radial-gradient-10);
       }
