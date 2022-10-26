@@ -1,5 +1,6 @@
 <script setup lang="ts">
   import exempleMontre from '@/components/exempleMontre.vue'
+  import Montre from '@/components/montreCarreeSvg.vue'
   import {PlusIcon, ChevronDownIcon} from '@heroicons/vue/24/solid'
 </script>
 
@@ -21,11 +22,7 @@
     <h2>EN SAVOIR PLUS</h2>
     <ChevronDownIcon class="w-8"/>
   </div>
-  <section class="hidden">
-    <img class="xs:w-1/2" src="../../public/illustration_accueil.png" alt="">
-    <h1 class="text-xl xs:absolute xs:top-20 py-4 mx-3 xs:ml-80 font-lexend font-bold">
-      LA MONTRE QUE VOTRE POIGNET ATTENDAIT
-    </h1>
+  <section>
 
   </section>
   <section class="bg-sky-300 py-5">
