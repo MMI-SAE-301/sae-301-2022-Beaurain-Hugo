@@ -95,28 +95,28 @@
     <nav>
       <div class="sm:flex hidden justify-around py-4">
       <ul>
-        <li><a class="font-lexend font-bold text-5xl" href="#">Nous suivre</a></li>
-        <li><a class="font-source-code-pro text-2xl" href="#">Instagram</a></li>
-        <li><a class="font-source-code-pro text-2xl" href="#">Facebook</a></li>
-        <li><a class="font-source-code-pro text-2xl" href="#">Twitter</a></li>
+        <li><a class="font-lexend font-bold text-3xl" href="#">Nous suivre</a></li>
+        <li><a class="font-source-code-pro text-lg" href="#">Instagram</a></li>
+        <li><a class="font-source-code-pro text-lg" href="#">Facebook</a></li>
+        <li><a class="font-source-code-pro text-lg" href="#">Twitter</a></li>
       </ul>
       <ul>
-        <li><router-link class="font-lexend font-bold text-5xl" to="/connexion">Se connecter</router-link></li>
-        <li><a class="font-source-code-pro text-2xl" href="#">Google</a></li>
-        <li><a class="font-source-code-pro text-2xl" href="#">Facebook</a></li>
+        <li><router-link class="font-lexend font-bold text-3xl" to="/connexion">Se connecter</router-link></li>
+        <li><a class="font-source-code-pro text-lg" href="#">Google</a></li>
+        <li><a class="font-source-code-pro text-lg" href="#">Facebook</a></li>
       </ul>
     </div>
     <div class="sm:hidden text-center py-10">
       <ul>
-        <li><a class="font-lexend font-bold text-3xl" href="#">Nous suivre</a></li>
-        <li><a class="font-source-code-pro text-xl" href="#">Instagram</a></li>
-        <li><a class="font-source-code-pro text-xl" href="#">Facebook</a></li>
-        <li><a class="font-source-code-pro text-xl" href="#">Twitter</a></li>
+        <li><a class="font-lexend font-bold text-xl" href="#">Nous suivre</a></li>
+        <li><a class="font-source-code-pro text-base" href="#">Instagram</a></li>
+        <li><a class="font-source-code-pro text-base" href="#">Facebook</a></li>
+        <li><a class="font-source-code-pro text-base" href="#">Twitter</a></li>
       </ul>
       <ul>
-        <li><router-link class="font-lexend font-bold text-3xl" to="/connexion">Se connecter</router-link></li>
-        <li><a class="font-source-code-pro text-xl" href="#">Google</a></li>
-        <li><a class="font-source-code-pro text-xl" href="#">Facebook</a></li>
+        <li><router-link class="font-lexend font-bold text-xl" to="/connexion">Se connecter</router-link></li>
+        <li><a class="font-source-code-pro text-base" href="#">Google</a></li>
+        <li><a class="font-source-code-pro text-base" href="#">Facebook</a></li>
       </ul> 
     </div>
     </nav>
