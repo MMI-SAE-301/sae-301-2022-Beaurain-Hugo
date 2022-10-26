@@ -1,13 +1,13 @@
 <script setup lang="ts">
   import exempleMontre from '@/components/exempleMontre.vue'
-  import {PlusIcon} from '@heroicons/vue/24/solid'
+  import {PlusIcon, ChevronDownIcon} from '@heroicons/vue/24/solid'
 </script>
 
 <template>
   <section class="grid xs:grid-cols-2">
     <img class="sm:w-auto sm:h-full w-full h-auto xs:w-full xs:h-auto" src="../../public/illustration_accueil.png" alt="">
     <div class="lg:mt-32 xs:mt-4 md:mt-28 sm:mt-24" >
-      <h1 class="sm:text-xl xs:ml-16 text-sm sm:ml-24 md:mr-16 lg:mr-24 xs:mt-10 mt-3 ml-5 font-lexend font-bold">
+      <h1 class="sm:text-xl xs:ml-16 text-base sm:ml-24 md:mr-16 lg:mr-24 xs:mt-10 mt-3 ml-5 font-lexend font-bold">
         LA MONTRE QUE VOTRE POIGNET ATTENDAIT
       </h1>
       <div class="flex justify-center mt-4 mb-3">
@@ -17,6 +17,10 @@
     </div>
   </div>
   </section>
+  <div class="bg-blue-200 md:text-xl xs:text-lg text-sm flex flex-col items-center py-2 xs:py-4 md:py-8 font-bold font-lexend">
+    <h2>EN SAVOIR PLUS</h2>
+    <ChevronDownIcon class="w-8"/>
+  </div>
   <section class="hidden">
     <img class="xs:w-1/2" src="../../public/illustration_accueil.png" alt="">
     <h1 class="text-xl xs:absolute xs:top-20 py-4 mx-3 xs:ml-80 font-lexend font-bold">
