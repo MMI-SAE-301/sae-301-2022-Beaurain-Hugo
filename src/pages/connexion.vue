@@ -1,5 +1,5 @@
 <script setup lang="ts">
-    import logInLogOut from '@/components/logInLogOut.vue'
+    import logInLogOutGoogle from '@/components/logInLogOutGoogle.vue'
 </script>
 
 <template>
