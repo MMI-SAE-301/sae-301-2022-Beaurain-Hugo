@@ -21,6 +21,9 @@
         motion-safe:transition-transform motion-safe:duration-1000
       "
       :class="{ 'translate-x-0': menuOuvert }">
+      <button class="absolute top-3 right-3 " @click="menuOuvert = !menuOuvert">
+        <XMarkIcon class="h-10 w-10"/>
+      </button>
       <div class="flex justify-center">
         <ul class="text-center font-lexend">
           <li>
@@ -57,7 +60,7 @@
 </template>
 
 <script setup lang="ts">
-import { Bars3Icon, UsersIcon } from "@heroicons/vue/20/solid";
+import { Bars3Icon, UsersIcon, XMarkIcon } from "@heroicons/vue/20/solid";
 import { ref } from 'vue'
 const menuOuvert = ref(false)
 </script>
