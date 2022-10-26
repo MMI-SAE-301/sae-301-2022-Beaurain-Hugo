@@ -23,6 +23,7 @@
       :class="{ 'translate-x-0': menuOuvert }">
       <button class="absolute top-3 right-3 " @click="menuOuvert = !menuOuvert">
         <XMarkIcon class="h-10 w-10"/>
+        <span class="sr-only">Fermer menu</span> 
       </button>
       <div class="flex justify-center">
         <ul class="text-center font-lexend">
