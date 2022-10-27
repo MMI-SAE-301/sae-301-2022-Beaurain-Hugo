@@ -19,21 +19,29 @@ export const colors = {
     "#808000": "Olive",
 };
 
-export const materiaux = [
+export const materiauxBra = [
+
     {
-        value: "../public/cuir.jpg",
-        label: "Cuir",
-    },
-    {
-        value: "../public/gold.jpg",
+        value: "/gold.jpg",
         label: "Or",
     },
     {
-        value: "../public/platine.jpg",
+        value: "/platine.jpg",
         label: "Platine",
     },
     {
-        value: "../public/acier.jpg",
+        value: "/acier.jpg",
         label: "Acier",
     },
+]
+
+export const materiauxBoi = [
+    {
+        value: "/cuir.jpg",
+        label: "Cuir",
+    },
+    {
+        value: "/acier.jpg",
+        label: "Acier",
+    }
 ]
