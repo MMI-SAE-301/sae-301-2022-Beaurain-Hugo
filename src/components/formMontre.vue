@@ -39,7 +39,7 @@
         <listColors name="ecran" label="Ecran" />
     </FormKit>
     <div>
-        <montreCarree class="w-64" v-bind="montre"/>
+        <montreCarree class="w-64 m-auto" v-bind="montre"/>
         <!--<montreRonde v-bind="montre" />-->
     </div>
     
