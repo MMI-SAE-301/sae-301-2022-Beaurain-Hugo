@@ -34,7 +34,7 @@
 <template>
     <div class="grid sm:grid-cols-2">
         <FormKit type="form" v-model="montre" @submit="upsertBasket">
-        <p class="font-lexend">Couleurs</p>
+        <p class="font-lexend text-xl">Couleurs</p>
         <listColors name="bracelet" label="Bracelet" />
         <listColors name="boitier" label="Boîtier" />
         <listColors name="ecran" label="Ecran" />
