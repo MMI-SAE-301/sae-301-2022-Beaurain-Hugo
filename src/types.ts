@@ -21,15 +21,19 @@ export const colors = {
 
 export const materiaux = [
     {
-        value: "../",
+        value: "../public/cuir.jpg",
         label: "Cuir",
     },
     {
-        value: "http://url/image/tissu",
-        label: "Tissu",
+        value: "../public/gold.jpg",
+        label: "Or",
     },
     {
-        value: "http://url/image/synthetique",
-        label: "Synthétique",
+        value: "../public/platine.jpg",
+        label: "Platine",
+    },
+    {
+        value: "../public/acier.jpg",
+        label: "Acier",
     },
 ]
