@@ -18,7 +18,7 @@
       <router-link
         :to="{ name: 'montres-edit-id', params: { id: montre.id } }"
       >
-        <montreCarree class="w-64" v-bind="montre" />
+        <montreCarree class="w-48 md:w-64" v-bind="montre" />
         <!--<router-link :to="{ name:'basket-delete-delete', params: {id:basket.id}}">Supprimer</router-link>-->
       </router-link>
     </li>

@@ -36,7 +36,7 @@
     Besoin d'inspiration ?
   </h2>
   <div class="mt-5">
-  <exempleMontre class="flex flex-wrap justify-around gap-5" :max="3" />
+  <exempleMontre class="flex flex-wrap justify-around gap-5 " :max="3" />
   </div>
 </section>
 </template>
