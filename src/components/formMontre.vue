@@ -32,6 +32,7 @@
 </script>
 
 <template>
+    <div class="grid grid-cols-2">
     <div>
         <montreCarree class="w-64" v-bind="montre"/>
         <!--<montreRonde v-bind="montre" />-->
@@ -41,4 +42,5 @@
         <listColors name="boitier" label="Boîtier" />
         <listColors name="ecran" label="Ecran" />
     </FormKit>
+</div>
 </template>
