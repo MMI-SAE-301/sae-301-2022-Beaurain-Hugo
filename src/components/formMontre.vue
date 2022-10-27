@@ -66,13 +66,13 @@ const optionsMateriaux = listeMateriaux?.map((materiaux) => ({
 
 <template>
     
-    <div class="grid sm:grid-cols-2 mb-10">
-        <FormKit submit-label="Enregistrer" :submit-attrs="{  classes: { input: 'ml-40 font-lexend text-base mt-16 sm:text-lg rounded-sm py-3 px-6 sm:py-4 sm:px-8 bg-blue-300 flex' } }" type="form" v-model="montre" @submit="upsertBasket">
-        <p class="font-lexend text-xl mt-10">Couleurs</p>
+    <div class="grid sm:grid-cols-2 pb-10">
+        <FormKit submit-label="Enregistrer" :submit-attrs="{  classes: { input: 'ml-40 font-lexend dark:text-gray-50 dark:bg-blue-700 text-base mt-16 sm:text-lg rounded-sm py-3 px-6 sm:py-4 sm:px-8 bg-blue-300 flex' } }" type="form" v-model="montre" @submit="upsertBasket">
+        <p class="font-lexend text-xl dark:text-gray-50 mt-10">Couleurs</p>
         <listColors name="bracelet" label="Bracelet" />
         <listColors name="boitier" label="Boîtier" />
         <listColors name="ecran" label="Ecran" />
-        <p class="font-lexend text-xl mt-5">Matériaux</p>
+        <p class="font-lexend text-xl dark:text-gray-50 mt-5">Matériaux</p>
         <listMateriauxBoi name="materielBoitier" label="Boîtier" />
         <listMateriauxBra name="materielBracelet" label="Bracelet" />
         <FormKit name="commande" label="Commander ?" type="checkbox" wrapper-class="w-full flex text-xl"/>      

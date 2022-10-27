@@ -1,7 +1,7 @@
 <template>
     <header>
-    <nav>
-      <div class="flex justify-between border-b-2 border-blue-200">
+    <nav class="dark:text-gray-50">
+      <div class="flex justify-between dark:bg-gray-900 border-b-2 border-blue-200">
       <router-link to="/" class="sm:hidden font-cinzel text-lg ml-3 mt-2">Tik Tak</router-link>
       <ul class="text-center font-lexend text-base sm:flex hidden gap-14 ml-20">
         <li class="ml-5">
@@ -88,11 +88,11 @@
 
   <!-- Affiche les pages -->
   <Suspense>
-    <router-view class="m-2 p-2" />
+    <router-view class="p-2 dark:bg-gray-900" />
   </Suspense>
 
-  <footer class="bg-blue-100">
-    <nav>
+  <footer class="dark:bg-blue-800 bg-blue-100">
+    <nav class="dark:text-gray-50">
       <div class="sm:flex hidden justify-around py-4">
       <ul>
         <li><a class="font-lexend font-bold text-3xl" href="#">Nous suivre</a></li>
