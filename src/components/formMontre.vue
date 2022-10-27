@@ -33,14 +33,15 @@
 
 <template>
     <div class="grid grid-cols-2">
-    <div>
-        <montreCarree class="w-64" v-bind="montre"/>
-        <!--<montreRonde v-bind="montre" />-->
-    </div>
-    <FormKit type="form" v-model="montre" @submit="upsertBasket">
+        <FormKit type="form" v-model="montre" @submit="upsertBasket">
         <listColors name="bracelet" label="Bracelet" />
         <listColors name="boitier" label="Boîtier" />
         <listColors name="ecran" label="Ecran" />
     </FormKit>
+    <div>
+        <montreCarree class="w-64" v-bind="montre"/>
+        <!--<montreRonde v-bind="montre" />-->
+    </div>
+    
 </div>
 </template>
