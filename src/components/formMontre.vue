@@ -14,6 +14,7 @@
   DialogPanel,
   DialogTitle,
 } from '@headlessui/vue'
+import { checkbox } from '@formkit/inputs'
 
 const isOpen = ref(false)
 
@@ -32,12 +33,15 @@ function openModal() {
     }>();
     const montre = ref<Montre>(props.data ?? {});
     async function upsertBasket(dataForm, node) {
+        dataForm.date = Date.now()
         const { data, error } = await supabase.from("montre").upsert(dataForm);
         if (error) node.setErrors([error.message])
         else {
         node.setErrors([]);
         openModal()
         }
+            
+        
     }
     if (props.id) {
         // On charge les données de la maison
