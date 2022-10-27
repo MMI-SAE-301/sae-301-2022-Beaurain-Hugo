@@ -5,12 +5,12 @@
 
 <template>
   <section class="grid xs:grid-cols-2">
-    <img class="sm:w-auto sm:h-full w-full h-auto xs:w-full xs:h-auto" src="../../public/illustration_accueil.png" alt="">
-    <div class="lg:mt-32 xs:mt-4 md:mt-28 sm:mt-24" >
-      <h1 class="sm:text-xl xs:ml-16 text-base sm:ml-24 md:mr-16 lg:mr-24 xs:mt-10 mt-3 ml-5 font-lexend font-bold">
+    <img class="w-full h-auto xs:w-auto xs:h-full" src="../../public/illustration_accueil.png" alt="">
+    <div class="sm:mt-8 md:mt-16 lg:mt-32" >
+      <h1 class="lg:text-3xl text-xl xs:ml-12 sm:ml-24 md:mr-16 lg:mr-24 mt-3 ml-5 font-lexend font-bold">
         LA MONTRE QUE VOTRE POIGNET ATTENDAIT
       </h1>
-      <div class="flex justify-center mt-4 mb-3">
+      <div class="flex justify-center mt-1 sm:mt-4 mb-3">
         <router-link class="font-lexend text-base sm:text-lg rounded-sm py-3 px-6 sm:py-4 sm:px-8 bg-blue-300 flex" to="/montres/new">
           <PlusIcon class="sm:h-8 sm:w-8 w-4" />CREER
         </router-link>
