@@ -21,7 +21,7 @@
         </ul>
         <ul>
           <li class="mt-0.5">
-            <router-link class="sm:flex hidden mr-5" to="/connexion">
+            <router-link class="sm:flex hidden mr-5 py-0.5 px-2 bg-blue-300 rounded-sm" to="/connexion">
               <UsersIcon class="w-5 h-5 mt-1"/>Se connecter
             </router-link>
           </li>
@@ -75,7 +75,7 @@
             </router-link>
           </li >
           <li @click="menuOuvert = !menuOuvert">
-            <router-link class="flex" to="/connexion">
+            <router-link class="flex " to="/connexion">
               <UsersIcon class="w-5 h-5"/>Se connecter
             </router-link>
           </li>
