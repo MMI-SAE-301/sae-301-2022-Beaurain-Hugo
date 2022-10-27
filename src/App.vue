@@ -88,7 +88,7 @@
 
   <!-- Affiche les pages -->
   <Suspense>
-    <router-view class="p-2 dark:bg-gray-900" />
+    <router-view class="p- dark:bg-gray-900" />
   </Suspense>
 
   <footer class="dark:bg-blue-800 bg-blue-100">
