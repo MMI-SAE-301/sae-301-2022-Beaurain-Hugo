@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
   import exempleMontre from '@/components/exempleMontre.vue'
   import {PlusIcon, ChevronDownIcon} from '@heroicons/vue/24/solid'
 </script>
@@ -12,7 +13,7 @@
         LA MONTRE QUE VOTRE POIGNET ATTENDAIT
       </h1>
       <div class="flex justify-center mt-1 sm:mt-4 mb-3">
-        <router-link class="font-lexend text-base sm:text-lg rounded-sm py-3 px-6 sm:py-4 sm:px-8 dark:bg-blue-700 bg-blue-300 flex" to="/montres/new">
+        <router-link class="font-lexend text-base sm:text-lg rounded-sm py-3 px-6 sm:py-4 sm:px-8 // @ts-nocheck bg-blue-300 flex" to="/montres/new">
           <PlusIcon class="sm:h-8 sm:w-8 w-4" />CREER
         </router-link>
     </div>

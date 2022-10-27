@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
     import { supabase } from "@/supabase";
     import montreCarree from "@/components/montreCarreeSvg.vue";
     const props = defineProps<{

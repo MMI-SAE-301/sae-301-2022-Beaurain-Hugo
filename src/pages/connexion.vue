@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
     import logInLogOutGoogle from '@/components/logInLogOutGoogle.vue'
     import logInLogOutFacebook from '@/components/logInLogOutFacebook.vue'
     import {supabase, user } from '../supabase'

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
 import {user } from '@/supabase'
     import listMontre from '@/components/listMontre.vue'
 </script>

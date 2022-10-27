@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
     import montreCarree from '@/components/montreCarreeSvg.vue'
     import montreRonde from '@/components/montreRondeSvg.vue'
     import listColors from '@/components/listColors.vue'
