@@ -3,7 +3,8 @@
 </script>
 
 <template>
-    <button @pointerdown="supabase.auth.signIn({provider: 'facebook'})">
+    <button class="flex gap-1" @pointerdown="supabase.auth.signIn({provider: 'facebook'})">
+        <img class="w-4 mt-1" src="/facebook.png" alt="">
         Se connecter avec Facebook
     </button>
 </template>
