@@ -5,7 +5,7 @@
       max?: number;
     }>();
     const { data: montres, error } = await supabase
-      .from("alluser")
+      .from("lastmontres")
       .select("*")
       .limit(props.max ?? 100);
         if (error) {
