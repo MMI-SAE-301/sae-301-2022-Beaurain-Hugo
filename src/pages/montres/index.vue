@@ -7,7 +7,7 @@ import {user } from '@/supabase'
     <div v-if="user">
         <h1 class="md:text-3xl text-xl xs:ml-12 sm:ml-24 md:mr-16 lg:mr-24 mt-3 ml-5 font-lexend font-bold">Vos montres enregistrées</h1>
         <div class="my-8">
-            <listMontre class="flex flex-wrap gap-2" />
+            <listMontre class="flex flex-wrap justify-around gap-2" />
         </div>
     </div>
     <div v-else>
