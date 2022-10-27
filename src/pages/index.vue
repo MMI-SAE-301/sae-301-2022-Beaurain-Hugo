@@ -27,12 +27,12 @@
       
   </div>
   <div class="mt-5">
-    <h2 class="font-lexend font-bold ml-3 md:ml-12 text-xl">Vos montres sont uniques</h2>
+    <h2 class="font-lexend font-bold ml-3 md:ml-12 text-lg">Vos montres sont uniques</h2>
     <p class="font-source-code-pro mx-3 md:mx-12">Soyez le créateur de votre montre ! Personnalisez votre montre, recevez-la et portez la à votre poignet ! Vous ne trouverez votre montre nulle part ailleurs, et pourrez ainsi l’arborez fièrement à tous vos amis !</p>
   </div>
   </section>
   <section class="bg-sky-300 py-5">
-  <h2 class="ml-3 md:ml-12 text-xl font-bold">
+  <h2 class="ml-3 md:ml-12 text-lg font-bold">
     Besoin d'inspiration ?
   </h2>
   <div class="mt-5">
