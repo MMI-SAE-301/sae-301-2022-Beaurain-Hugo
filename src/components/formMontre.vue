@@ -32,15 +32,16 @@
 </script>
 
 <template>
+    
     <div class="grid sm:grid-cols-2">
-        <FormKit type="form" v-model="montre" @submit="upsertBasket">
+        <FormKit submit-label="Enregistrer" :submit-attrs="{  classes: { input: 'ml-40 font-lexend text-base mt-16 sm:text-lg rounded-sm py-3 px-6 sm:py-4 sm:px-8 bg-blue-300 flex' } }" type="form" v-model="montre" @submit="upsertBasket">
         <p class="font-lexend text-xl">Couleurs</p>
         <listColors name="bracelet" label="Bracelet" />
         <listColors name="boitier" label="Boîtier" />
         <listColors name="ecran" label="Ecran" />
     </FormKit>
     <div>
-        <montreCarree class="w-64 m-auto" v-bind="montre"/>
+        <montreCarree class="w-64 my-4 mx-auto" v-bind="montre"/>
         <!--<montreRonde v-bind="montre" />-->
     </div>
     
