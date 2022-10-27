@@ -67,6 +67,7 @@ const optionsMateriaux = listeMateriaux?.map((materiaux) => ({
 <template>
     
     <div class="grid sm:grid-cols-2 pb-10">
+        <div>
         <FormKit submit-label="Enregistrer" :submit-attrs="{  classes: { input: 'ml-40 font-lexend dark:text-gray-50 dark:bg-blue-700 text-base mt-16 sm:text-lg rounded-sm py-3 px-6 sm:py-4 sm:px-8 bg-blue-300 flex' } }" type="form" v-model="montre" @submit="upsertBasket">
         <p class="font-lexend text-xl dark:text-gray-50 mt-10">Couleurs</p>
         <listColors name="bracelet" label="Bracelet" />
@@ -78,6 +79,8 @@ const optionsMateriaux = listeMateriaux?.map((materiaux) => ({
         <FormKit name="commande" label="Commander ?" type="checkbox" wrapper-class="w-full flex text-xl"/>      
 
     </FormKit>
+    <p class="text-lexend font-semibold">Prix : 329,98€</p>
+</div>
     <div>
         <montreCarree class="w-64 my-4 mx-auto" v-bind="montre"/>
         <!--<montreRonde v-bind="montre" />-->
